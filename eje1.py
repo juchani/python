@@ -1,10 +1,10 @@
 lst=[1, 2, [3,[4,5,6,[7, [7,8],8],9],10],11,[12,13],14] #lista a aplanar 
-# las variables de aqui estaban demas 
-def val(apla,st=0): #creamos la funcion 
-    global lista2 #definimos una variable global para almacenar los datos definitivos 
-    lista=apla    #asignamos a lista los datos de entrada
-    contador =0   #contador es la variable para iniciar el bucle 
-    lista1=[]     #creamos listas vacias
+                              ###### las variables de aqui estaban demas 
+def val(apla,st=0):                  #creamos la funcion 
+    global lista2                    #definimos una variable global para almacenar los datos definitivos 
+    lista=apla                       #asignamos a lista los datos de entrada
+    contador =0                      #contador es la variable para iniciar el bucle 
+    lista1=[]                        #creamos listas vacias
     lista2=[]      
     while contador==0:
         for l in lista:              #inicia un bucle donde los datos de la lista se asignan a i
